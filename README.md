@@ -9,25 +9,25 @@ Over 25,000 data records were extracted from yfinance and can be accessed both l
 Basic visualization of open price, daily volume and total traded $ amount.
 
 Any special values / outliers were identified and inspected.
-![Open Price](image.png)
-![Trade Volume](image-1.png)
-![Total Traded](image-2.png)
+![Open Price](./snapshots/open_price.png)
+![Trade Volume](./snapshots/trade_volume.png)
+![Total Traded](./snapshots/total_trade.png)
 
 Furthermore, a better tendency and correlation was visualized using moving averages and scatter matrix.
-![Alt text](image-3.png)
-![Alt text](image-4.png)
+![Alt text](./snapshots/MA_open.png)
+![Alt text](./snapshots/MA_matrix.png)
 
 ## Financial Analysis 
 Return Volatility was identified using histogram, kde graph, box plot.
-![Alt text](image-5.png)
-![Alt text](image-6.png)
-![Alt text](image-7.png)
+![Alt text](./snapshots/return_vola_hist.png)
+![Alt text](./snapshots/return_vola_kde.png)
+![Alt text](./snapshots/return_vola_box.png)
 
 Return Correlation was identified using matrix.
-![Alt text](image-8.png)
-![Alt text](image-9.png)
+![Alt text](./snapshots/return_cor_matrix.png)
+![Alt text](./snapshots/vwagy_mbgyy.png)
 
 A Cumulative Return was generated to show overall performance.
-![Alt text](image-10.png)
+![Alt text](./snapshots/cumu_ret.png)
 
 ## Please run and edit the jupyter notebook for interactive results
