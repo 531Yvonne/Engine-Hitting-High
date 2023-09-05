@@ -1,11 +1,22 @@
-# automotive-5year-stock-analysis
+# automotive-5year-stock-trading
 
-This is a 5-year stock market analysis on top 20 major automotive industry companies' stock market (based on Total Marke Capitalization as of June 30, 2023, including US stock market and OTC), from July 1 2018 to June 30 2023 using <b> yfinance, matplotlib, pandas, datetime and numpy.</b>
+## Summary
+* Analyzed and visualized top 20 major automotive industry companies' stock market (based on Total Marke Capitalization as of June 30, 2023, including US stock market and OTC) from July 1 2018 using <b>yfinance, numpy, pandas and matplotlib.</b>
 
-## Source Data
+* Developed and optimized an algorithmic trading strategy, with weighted consideration of:
+    - Financial indicators(Exponential Moving Averages(EMA), Moving Average Convergence Divergence (MACD) and Relative Strength Index (RSI))
+    - Sentimental analysis using Tiingo News Feed API and Vader analyzer
+    - Machine learning predictions using RandomForestRegressor
+
+* Achieved a <b>128.80%</b> return during a 5-year backtesting and realized a <b>18.74%</b> return during a 3-month live trading deployment
+
+![Backtesting](./snapshots/Backtesting.png)
+![Live](./snapshots/Live.png)
+
+## Pre-Trading Research Source Data
 Over 25,000 data records were extracted from yfinance and can be accessed both locally from .csv files under /source_data or access directly online.
 
-## Visualization
+## Data Visualization and Financial Analysis 
 Basic visualization of open price, daily volume and total traded $ amount.
 
 Any special values / outliers were identified and inspected.
@@ -17,7 +28,6 @@ Furthermore, a better tendency and correlation was visualized using moving avera
 ![Alt text](./snapshots/MA_open.png)
 ![Alt text](./snapshots/MA_matrix.png)
 
-## Financial Analysis 
 Return Volatility was identified using histogram, kde graph, box plot.
 ![Alt text](./snapshots/return_vola_hist.png)
 ![Alt text](./snapshots/return_vola_kde.png)
@@ -30,4 +40,6 @@ Return Correlation was identified using matrix.
 A Cumulative Return was generated to show overall performance.
 ![Alt text](./snapshots/cumu_ret.png)
 
-## Please run and edit the jupyter notebook for interactive results
+## Run and edit the jupyter notebook for interactive results
+
+## Find trading algorithm in trading_algo folder
