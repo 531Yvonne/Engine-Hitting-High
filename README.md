@@ -1,4 +1,4 @@
-# automotive-5year-stock-trading
+# Engine Hitting High ---- A Data Analysis and Quant Trading Algo focusing on Automotive Market
 
 ## Summary
 * Analyzed and visualized top 20 major automotive industry companies' stock market (based on Total Marke Capitalization as of June 30, 2023, including US stock market and OTC) from July 1 2018 using <b>yfinance, numpy, pandas and matplotlib.</b>
